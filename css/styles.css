@@ -89,7 +89,6 @@ main {
     text-align: center
 }
 
-
 #portfolio {
     background-color: #daad85;
     width: 100%;
@@ -115,25 +114,31 @@ main {
     width: calc(100% - 40px);
     max-width: 420px;
     border-radius: 10px;
-    cursor: pointer;
     margin: 20px;
     background-color: rgb(235, 211, 176);
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .portfolio-item img {
     width: calc(100% - 40px);
     border-radius: 10px;
-    cursor: pointer;
     margin: 20px;
+}
+
+.portfolio-item h3 {
+    color: #00455d;
+    margin: 0 0 10px 0;
 }
 
 .portfolio-button {
     color: rgb(235, 211, 176);
     background-color: #00455d;
     padding: 5px 10px;
-    border: 0;
+    margin: 0 0 10px 0;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .portfolio-description {
@@ -142,7 +147,6 @@ main {
     font-size: 1rem;
     text-align: center
 }
-
 
 .footer-title {
     color: #daad85;
